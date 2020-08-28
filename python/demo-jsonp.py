@@ -4,10 +4,7 @@
     也可在后端 sever 内发送请求
 """
 
-import time
-import hashlib
-import hmac
-import base64
+import time, hashlib, hmac, base64
 from urllib import parse
 from utils.const_value import UID, KEY, API
 from utils.helper import getLocation
